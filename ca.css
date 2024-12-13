@@ -1,0 +1,242 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #063c46;
+}
+
+/* Header Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .logo span {
+    color: rgb(0, 247, 255);
+}
+
+.navbar nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.contact-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-btn:hover {
+    background-color: #e69500;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #01161a;
+}
+
+.hero-section .content h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    color: white;
+}
+
+.hero-section .content h1 span {
+    color: rgb(0, 247, 255);
+}
+
+.hero-section .content p {
+    margin: 20px 25px;
+    color: white;
+}
+
+
+
+/* Image Container */
+.image-container img {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #00e1ff,
+                0 0 20px #00e1ff,
+                0 0 50px #00e1ff,
+                0 0 100px #00e1ff;
+}
+
+
+.bots {
+    padding: 0 45%;
+    text-align: center;
+}
+
+.bbtn {
+    font-family: sans-serif;
+    font-size: 15px;    
+    font-weight: bold;
+    background: rgb(0, 183, 255);
+    width: 50px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0 , 0, 0.1);
+}
+
+.bots :hover{
+    box-shadow: 0 0 5px #00e1ff,
+    0 0 20px #00e1ff,
+    0 0 50px #00e1ff,
+    0 0 100px #00e1ff;
+}
+
+
+
+
+
+/* Footer Styles */
+.footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 1px 10px;
+    font-size: 0.9rem;
+    margin-top: 50px;
+}
+
+
+
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+    color: rgb(0, 255, 255);
+    text-decoration: underline;
+
+}
+
+.copyright {
+    margin-top: 10px;
+    color: #777;
+    font-size: 0.8rem;
+}
+
+
+
+
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #01161a;
+    line-height: 1.6;
+}
+
+
+/* INFO */
+.portfolio-logo {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 0 50%;
+    padding-top: 10%;
+    color: black;
+}
+/* INFO COLOR */
+.portfolio-logo span {
+    color: orange;
+    
+}
+
+
+/* IMAGE */
+.portfolio-hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: linear-gradient(to right, #011b25, #01161a);
+    min-height: 60vh;
+}
+/* IMAGE */
+.portfolio-content {
+    max-width: 50%;
+}
+
+
+
+.portfolio-content p {
+    margin-top: 20px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+
+/* Beyong my pursuit */
+.portfolio-career {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #01161a;
+    color: white;
+}
+
+.portfolio-career h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.portfolio-career p {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 1rem;
+}
+
+
